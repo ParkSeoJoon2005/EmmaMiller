@@ -4,15 +4,14 @@ from pyrogram.types import *
 
 from EmmaMiller.config import get_str_key
 from EmmaMiller import pbot
-
-TEXT = """👋 Hey there! My name is [Emma Miller](https://t.me/EmmaMillerBot) ✨ - A powerful group management bot which can help you to manage your groups effectively as possible With   Advanced AI . 
+TEXT = """👋 Hey there! My name is Aurora ✨ - A powerful group management bot which can help you to manage your groups effectively as possible With   Advanced AI . 
 Click `menu` button for more information.
-Join my [news channel](https://t.me/BotMaster_mkspali) to get information on all the latest updates.  """
+  """
 
 MENU = [
     [
         InlineKeyboardButton(
-            text="↪️ Main menu ", callback_data="aboutmanu_back"),
+            text="🀄Main menu ", callback_data="aboutmanu_back"),
     ],
 ]
 
