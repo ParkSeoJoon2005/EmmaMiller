@@ -1,5 +1,5 @@
 __help__ = """
-@BotMasterOfficial
+
 *  • Groups and channels Voice Chat Music Play 🎙 *
 
 1️⃣ Make bot admin (Group and in channel if use cplay)
@@ -9,7 +9,7 @@ __help__ = """
  
 * 🔔 For Channel Music Play 🔔 *
 
-1️⃣ Make @EmmaMillerBot  admin of your channel 
+1️⃣ Make @AuroraSKBOT  admin of your channel 
 2️⃣ Send /userbotjoinchannel in linked group
 3️⃣ Now send commands in linked group 
 
@@ -59,12 +59,12 @@ channel is also can be used instead of c ( /cplay = /channelplay )
 • /admincache: Updates admin info of your group. Try if bot isn't recognize admin
 • /userbotjoin: Invite @vcpalyassistant Userbot to your chat 
  
-* Assisten *
+* Assistent *
 
-@vcpalyassistant
+@Xzavier_16
 
-* 🤖Bot🤖 *
+* 🤖Bot*
 
-[Emma Miller](https://t.me/EmmaMillerBot)
+@AuroraSkbot
 """
-__mod_name__ = "☠𝐕𝐂 𝐏𝐥𝐚𝐲☠"
+__mod_name__ = "🎵VC Play"
