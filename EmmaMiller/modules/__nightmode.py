@@ -92,27 +92,27 @@ async def profanity(event):
     if not input:
         if is_nightmode_indb(str(event.chat_id)):
                 await event.reply(
-                    "Currently NightMode is Enabled for this Chat"
+                    "Currently NightMode is Enabled for this Chat!"
                 )
                 return
         await event.reply(
-            "Currently NightMode is Disabled for this Chat"
+            "Currently NightMode is Disabled for this Chat!"
         )
         return
     if "on" in input:
         if event.is_group:
             if is_nightmode_indb(str(event.chat_id)):
                     await event.reply(
-                        "Night Mode is Already Turned ON for this Chat"
+                        "Night Mode is Already Turned ON for this Chat!"
                     )
                     return
             add_nightmode(str(event.chat_id))
-            await event.reply("NightMode turned on for this chat.")
+            await event.reply("NightMode turned on for this chat!")
     if "off" in input:
         if event.is_group:
             if not is_nightmode_indb(str(event.chat_id)):
                     await event.reply(
-                        "Night Mode is Already Off for this Chat"
+                        "Night Mode is Already Off for this Chat!"
                     )
                     return
         rmnightmode(str(event.chat_id))
@@ -129,7 +129,7 @@ async def job_close():
     for pro in chats:
         try:
             await tbot.send_message(
-              int(pro.chat_id), "12:00 Am, Group Is Closing Till 6 Am. Night Mode Started ! \n**Powered By [Mukesh Solanki](https://t.me/mkspali)**"
+              int(pro.chat_id), "12:00 Am, Group Is Closing Till 6 Am. Night Mode Started ! \n**Powered By Aurora**"
             )
             await tbot(
             functions.messages.EditChatDefaultBannedRightsRequest(
@@ -151,7 +151,7 @@ async def job_open():
     for pro in chats:
         try:
             await tbot.send_message(
-              int(pro.chat_id), "06:00 Am, Group Is Opening.\n**Powered By [Mukesh Solanki](https://t.me/mkspali)**"
+              int(pro.chat_id), "06:00 Am, Group Is Opening.\n**Powered By Aurora**"
             )
             await tbot(
             functions.messages.EditChatDefaultBannedRightsRequest(
@@ -168,10 +168,10 @@ scheduler.start()
 
 
 __help__ = """
-@BotMasterOfficial
+ 
  ❍ /nightmode on/off
 **Note:** Night Mode chats get Automatically closed at 12pm(IST)
 and Automatically openned at 6am(IST) To Prevent Night Spams.
 """
 
-__mod_name__ = "☠𝐍𝐢𝐠𝐡𝐭-𝐌𝐨𝐝𝐞☠"
+__mod_name__ = "🌙Night-Mode"
