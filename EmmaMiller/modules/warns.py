@@ -498,7 +498,7 @@ def __chat_settings__(chat_id, user_id):
 
 
 __help__ = """
- @BotMasterOfficial
+ 
  /warns <userhandle>*:* get a user's number, and reason, of warns.
  ❍ /warnlist*:* list of all current warning filters
 
@@ -513,7 +513,7 @@ be a sentence, encompass it with quotes, as such: `/addwarn "very angry" This is
  
 """
 
-__mod_name__ = "☠𝐖𝐚𝐫𝐧𝐬☠"
+__mod_name__ = "❗️Warns"
 
 WARN_HANDLER = CommandHandler("warn", warn_user, filters=Filters.group)
 RESET_WARN_HANDLER = CommandHandler(
