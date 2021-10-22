@@ -1060,7 +1060,7 @@ def __chat_settings__(chat_id, user_id):
 
 
 __help__ = """
-@BotMasterOfficial
+
 *Admins only:*
  ❍ /welcome <on/off>*:* enable/disable welcome messages.
  ❍ /welcome*:* shows current welcome settings.
