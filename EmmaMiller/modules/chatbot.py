@@ -139,15 +139,15 @@ def list_all_chats(update: Update, context: CallbackContext):
     update.effective_message.reply_text(text, parse_mode="HTML")
 
 __help__ = """
-Chatbot utilizes the Kuki's api which allows Sophia to talk and provide a more interactive group chat experience.
+Chatbot utilizes which allows Aurora to talk and provide a more interactive group chat experience.
 *Admins only Commands*:
   ➢ `/Chatbot`*:* Shows chatbot control panel
   
- Reports bugs at Kuki-api.tk
-*Powered by ItelAi* (https://github/itelai) from @KukiUpdates
+ Reports bugs at KUKI-API.tk
+*Powered by ItelAI*
 """
 
-__mod_name__ = "☠𝐂𝐡𝐚𝐭𝐁𝐨𝐭☠"
+__mod_name__ = "🎭AI ChatBot"
 
 
 CHATBOTK_HANDLER = CommandHandler("chatbot", kuki)
