@@ -26,7 +26,7 @@ async def _(event):
         return
     if event.is_group:
      if not (await is_register_admin(event.input_chat, event.message.sender_id)):
-       await event.reply("🚨 Need Admin Pewer.. You can't use this command.. But you can use in my pm")
+       await event.reply("🔴Need Admin Pewer.. You can't use this command.. But you can use in my pm")
        return
 
     the_real_message = None
@@ -54,8 +54,8 @@ async def _(event):
 
 
 __help__ = """
-@BotMasterOfficial
+
 ❍ /json*:* Get Detailed info about any message
 """
 
-__mod_name__ = "☠𝐉𝐬𝐨𝐧☠"
+__mod_name__ = "🀄JSON"
