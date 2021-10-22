@@ -462,7 +462,7 @@ def adminlist(update, context):
 
 
 __help__ = """
-@BotMasterOfficial
+
  ❍ /admins*:* list of admins in the chat
 
 *Admins only:*
@@ -501,7 +501,7 @@ dispatcher.add_handler(DEMOTE_HANDLER)
 dispatcher.add_handler(SET_TITLE_HANDLER)
 dispatcher.add_handler(ADMIN_REFRESH_HANDLER)
 
-__mod_name__ = "☠𝐀𝐝𝐦𝐢𝐧☠"
+__mod_name__ = "🚔Admin"
 __command_list__ = [
     "adminlist",
     "admins",
