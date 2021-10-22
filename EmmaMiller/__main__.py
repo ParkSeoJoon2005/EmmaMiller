@@ -66,15 +66,13 @@ from EmmaMiller.modules.system_stats import bot_sys_stats
 
 
 TEXT = """
-Hey there! [👋](https://telegra.ph/file/b20df9de0562022dbe33a.jpg)  
-My name is [Emma Miller](https://t.me/EmmaMillerBot) ✨
+ʜᴇʟʟᴏ ᴛʜᴇʀᴇ! [👋](https://telegra.ph/file/40420c092b1c0a076e0ea.jpg)  
+ᴍʏ ɴᴀᴍᴇ ɪꜱ ᴀᴜʀᴏʀᴀ [ᴀᴜʀᴏʀᴀ✨](https://t.me/AuroraSKbot) 
 
-I can manage your  group with lots of useful features, feel free to add me to your group.
+ɪ ᴄᴀɴ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴇꜰꜰᴇᴄᴛɪᴠʟʏ ᴀꜱ ᴘᴏꜱꜱɪʙʟᴇ.
 
-✨ Pọwẹrẹɗ Ɓy : @BotMasterOfficial
-✮───────────────✮
-🌟 𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛 : [Mukesh Solanki](https://t.me/mkspali)
-✮───────────────✮
+✨ Pọwẹrẹɗ Ɓy : @Hermione_Updates
+
 """
 
 HELP_STRINGS = f"""
@@ -88,40 +86,38 @@ HELP_STRINGS = f"""
 DONATE_STRING = """
 𝑯𝒆𝒚𝒂, 𝒈𝒍𝒂𝒅 𝒕𝒐 𝒉𝒆𝒂𝒓 𝒚𝒐𝒖 𝒘𝒂𝒏𝒕 𝒕𝒐 𝒅𝒐𝒏𝒂𝒕𝒆!
 𝒀𝒐𝒖 𝒄𝒂𝒏 𝒅𝒐𝒏𝒂𝒕𝒆 𝒕𝒐 𝒕𝒉𝒆 𝒐𝒓𝒊𝒈𝒊𝒏𝒂𝒍 𝒘𝒓𝒊𝒕𝒆𝒓'𝒔 𝒐𝒇 𝒕𝒉𝒆 𝑩𝒂𝒔𝒆 𝒄𝒐𝒅𝒆,
-𝑺𝒖𝒑𝒑𝒐𝒓𝒕 𝒕𝒉𝒆𝒎 [Mukesh Solanki](https://t.me/mkspali)
+𝑺𝒖𝒑𝒑𝒐𝒓𝒕 𝒕𝒉𝒆𝒎 @HermioneSLBot
 """
 STICKERS = "CAACAgUAAx0CS6YhoQAC02VhQUW7iB4ci3lcSXHtLVOjFzZlDQACUQMAAvPvEVY76k2QN6u20iAE"   
 
 MENU = [
     [
         InlineKeyboardButton(
-            text="➕️ 𝐀𝐃𝐃 𝐌𝐄 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 ➕️", url="http://t.me/EmmaMillerBot?startgroup=true"),
+            text="➕️ᴀᴅᴅ ᴀᴜʀᴏʀᴀ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ", url="http://t.me/EmmaMillerBot?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="💠 Bot updates 💠", url=f"https://t.me/BotMasterOfficial"),
+        InlineKeyboardButton(text="📝ᴜᴘᴅᴀᴛᴇꜱ", url=f"https://t.me/BotMasterOfficial"),
         InlineKeyboardButton(
-            text="💠 Repo 💠", url=f"https://github.com/BotMasterOfficial/EmmaMiller"
+            text="🌸ᴅᴇᴠᴇʟᴏᴘᴇʀ", url=f"https://github.com/BotMasterOfficial/EmmaMiller"
         ),
     ],
     [
-        InlineKeyboardButton(text="💠 Info & about 💠", callback_data="aboutmanu_howto"),
+        InlineKeyboardButton(text="📃ɪɴꜰᴏ ᴀᴍᴅ ᴀʙᴏᴜᴛ", callback_data="aboutmanu_howto"),
         InlineKeyboardButton(
-            text="💠 More 💠", callback_data="aboutmanu_"
+            text="🖇ᴍᴏʀᴇ", callback_data="aboutmanu_"
         ),
     ],
     [
-        InlineKeyboardButton(text="🛠 Help & commands 🛠", callback_data="help_back"),
+        InlineKeyboardButton(text="🛠ʜᴇʟᴘ ᴀᴍᴅ ᴄᴏᴍᴍᴀɴᴅꜱ", callback_data="help_back"),
     ],
 ]
 
-PM_START_TEXT = """Hey there! [👋](https://telegra.ph/file/b20df9de0562022dbe33a.jpg)  
-My name is [Emma Miller](https://t.me/EmmaMillerBot) ✨
-I can manage your  group with lots of useful features, feel free to add me to your group.
+PM_START_TEXT = """ʜᴇʟʟᴏ ᴛʜᴇʀᴇ! [👋](https://telegra.ph/file/40420c092b1c0a076e0ea.jpg)  
+ᴍʏ ɴᴀᴍᴇ ɪꜱ ᴀᴜʀᴏʀᴀ [ᴀᴜʀᴏʀᴀ✨](https://t.me/AuroraSKbot) 
 
-✨ Pọwẹrẹɗ Ɓy : @BotMasterOfficial
-✮───────────────✮
-🌟 𝙳𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛 : [Mukesh Solanki](https://t.me/mkspali)
-✮───────────────✮
+ɪ ᴄᴀɴ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴇꜰꜰᴇᴄᴛɪᴠʟʏ ᴀꜱ ᴘᴏꜱꜱɪʙʟᴇ.
+
+✨ Pọwẹrẹɗ Ɓy : @Hermione_Updates
 
 *Main* available commands:
  - /start: Start the bot...
@@ -132,16 +128,16 @@ I can manage your  group with lots of useful features, feel free to add me to yo
 
 Click here for all commands --> /help
 
-Join my channel [Bot Master Official](https://t.me/BotMasterOfficial) to get information on all the latest updates.  """
+Join Our channel [ᴀɴᴅʀᴏᴍᴇᴅᴀ ᴛᴇʟᴇꜱᴄᴏᴘᴇꜱ](https://t.me/Andromeda_Telescopes) to get information on all the latest updates.  """
 
 BUTTONS = [
     [
         InlineKeyboardButton(
-            text="💠 Main menu 💠", callback_data="aboutmanu_back"),
+            text="⚙ᴍᴀɪɴ ᴍᴇɴᴜ", callback_data="aboutmanu_back"),
     ],
     [
         InlineKeyboardButton(
-            text="💠 System Stats 💠", callback_data="stats_callback"),
+            text="📌ꜱʏꜱᴛᴇᴍ ꜱᴛᴀᴛꜱ", callback_data="stats_callback"),
     ],
 ]
 
