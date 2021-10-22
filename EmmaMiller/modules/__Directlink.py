@@ -40,7 +40,7 @@ async def direct_link_generator(c: Client, update: Update):
         return
     reply = []
     if not links:
-        await update.reply_text("No links found!")
+        await update.reply_text("No links found...!")
         return
     for link in links:
         if 'sourceforge.net' in link:
@@ -86,7 +86,7 @@ def useragent():
 
 
 __help__ = """
-@BotMasterOfficial
+
  ❍ /direct - get any file useing link
 """
-__mod_name__ = "☠𝐃𝐢𝐫𝐞𝐜𝐭-𝐋𝐢𝐧𝐤☠"
+__mod_name__ = "🔗Direct Link"
